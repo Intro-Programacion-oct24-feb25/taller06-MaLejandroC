@@ -30,7 +30,7 @@ public class Problema002 {
 
         System.out.print("Ingrese el nombre propietario: ");
         propietario = valores.nextLine();
-        System.out.print("Ingrese el valor del vehiculo: ");
+        System.out.print("Ingrese el valor del vehiculo: $");
         valorVh = valores.nextDouble();
         System.out.print("Ingrese el tipo de vehiculo: ");
         tipo = valores.nextInt();
