@@ -1,5 +1,7 @@
 # taller06
-
+Integrantes: 
+CARRION INGA MICHAEL ALEJANDRO
+CORREA ABENDAÑO CARLOS SEBASTIAN
 ### Problema01
 
 Se necesita una solución que permita generar operaciones aritméticas, tales como: suma, resta, multiplicación, división, módulo, potencia. Independientemente de la operación que se vaya a realizar, se solicita trabajar con dos número ingresados por teclado. Existe una restricción, se puede ejecutar cualquiera de las operaciones, siempre que el primer número ingresado, sea mayor al segundo ingresado.
