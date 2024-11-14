@@ -6,6 +6,7 @@ package problema001;
 
 import java.util.Scanner;
 import java.util.Locale;
+
 /**
  *
  * @author utpl
@@ -19,61 +20,55 @@ public class Problema001 {
         // TODO code application logic here
         Scanner valores = new Scanner(System.in);
         valores.useLocale(Locale.US);
-        
-        
+
         double num1;
         double num2;
         double proceso = 0;
         String operacion;
-        String nosecumple;
-        
-        
+
         System.out.print("Ingrese la operacion a realizar: ");
         operacion = valores.nextLine();
         System.out.print("Ingrese el primer valor: ");
         num1 = valores.nextDouble();
         System.out.print("Ingrese el segundo valor: ");
         num2 = valores.nextDouble();
-        
-        
-        if (num1>num2) {
-            
+
+        if (num1 > num2) {
+
             operacion = operacion.toLowerCase();
-            
-            switch(operacion){
-                case("suma"):
+
+            switch (operacion) {
+                case ("suma"):
                     proceso = num1 + num2;
-                    
                     break;
-                case("resta"):
+                    
+                case ("resta"):
                     proceso = num1 - num2;
-                    
                     break;
-                case("multiplicacion"):
+                    
+                case ("multiplicacion"):
                     proceso = num1 * num2;
-                    
                     break;
-                case("division"):
+                    
+                case ("division"):
                     proceso = num1 / num2;
-                    
                     break;
-                case("modulo"):
+                    
+                case ("modulo"):
                     proceso = num1 % num2;
-                    
                     break;
-                case("potencia"):
+                    
+                case ("potencia"):
                     proceso = Math.pow(num1, num2);
-                    
                     break;
-                 
                     
+
             }
-           System.out.printf("La opercion es igual a: %.2f",proceso); 
-        }else{
+            System.out.printf("La opercion es igual a: %.2f", proceso);
+        } else {
             System.out.println("Los valores ingresados no cumplen la condicion");
-            
-            
-        }        
+
         }
-    
+    }
+
 }
