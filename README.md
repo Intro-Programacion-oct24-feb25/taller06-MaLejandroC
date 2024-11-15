@@ -1,6 +1,7 @@
 # taller06
 Integrantes: 
 CARRION INGA MICHAEL ALEJANDRO
+
 CORREA ABENDAÑO CARLOS SEBASTIAN
 ### Problema01
 
